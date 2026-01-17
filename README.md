@@ -9,7 +9,7 @@ A modern, production-ready Voice AI web platform where users can create voice ch
 
 ## 🚀 Live Demo
 
-**[View Live Demo →](https://your-vercel-url.vercel.app)**
+**[View Live Demo →](https://voiceai.platform.adityadev.codes/)**
 
 ## 📖 Product Overview
 
