@@ -1,28 +1,28 @@
 # VoiceAI Platform
 
-A modern, production-ready Voice AI web platform where users can create voice chatbots, configure their behavior, have voice conversations through the browser, and view conversation logs.
+This is a web platform where you can build voice chatbots and talk to them directly in your browser. You can set up how they behave, pick their voices, and read past conversations.
 
 ![VoiceAI Platform](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwind-css)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green?style=flat-square&logo=supabase)
 
-## 🚀 Live Demo
+## Live Demo
 
-**[View Live Demo →](https://voiceai.platform.adityadev.codes/)**
+**[Click here to visit the website](https://voiceai.platform.adityadev.codes/)**
 
-## 📖 Product Overview
+## Product Overview
 
-VoiceAI Platform enables users to:
+With the VoiceAI Platform, you can:
 
-1. **Create Voice Bots** - Build custom voice AI agents with personalized system prompts
-2. **Configure Behavior** - Select voices (12+ options), AI models, and response temperature
-3. **Voice Conversations** - Have real-time voice conversations through the browser
-4. **View Logs** - Review all conversation history with timestamps and roles
+1. **Create Voice Bots** - Make your own AI agents with custom instructions.
+2. **Configure Behavior** - Choose from over 12 voices and different AI settings.
+3. **Voice Conversations** - Talk to your bots in real-time using your microphone.
+4. **View Logs** - Read the history of what you and the bot said.
 
-This is an MVP implementation of a voice AI platform similar to systems used for customer support, appointment booking, and sales assistants.
+This is a basic version of a voice AI system, similar to what companies use for customer support or sales.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -37,7 +37,7 @@ This is an MVP implementation of a voice AI platform similar to systems used for
 | **LLM** | Google Gemini 1.5 Flash |
 | **Deployment** | Vercel |
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -66,7 +66,7 @@ This is an MVP implementation of a voice AI platform similar to systems used for
 User speaks → Microphone capture → Deepgram STT → Gemini LLM → Deepgram TTS → Audio playback
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 voice-ai-platform/
@@ -91,7 +91,7 @@ voice-ai-platform/
     └── schema.sql           # Database schema
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -143,14 +143,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## 🤖 AI Tools Used
+## AI Tools Used
 
 - **GitHub Copilot** - Code completion and suggestions
 - **Cursor AI** - Code generation and refactoring
 - **Claude** - Architecture design and code review
 - **ChatGPT** - Documentation and problem-solving
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 1. **Batch Processing** - Audio is processed after recording stops (not real-time streaming)
 2. **Browser Only** - No phone/telephony integration in MVP
@@ -158,7 +158,7 @@ Open [http://localhost:3000](http://localhost:3000)
 4. **No SSO** - Email/password and magic link auth only
 5. **Basic Rate Limiting** - No advanced API protection
 
-## 🔮 Scaling to Production (Retell-like Platform)
+## Scaling to Production (Retell-like Platform)
 
 If building this as a production voice AI platform, I would implement:
 
@@ -192,10 +192,10 @@ If building this as a production voice AI platform, I would implement:
 3. **Arcjet** - API rate limiting and bot protection
 4. **Monitoring** - DataDog/New Relic for observability
 
-## 📄 License
+## License
 
 This project was built for the DareXAI Full-Stack Intern Assignment.
 
 ---
 
-Built with ❤️ using Next.js, Supabase, Deepgram, and Gemini AI
+Built with Next.js, Supabase, Deepgram, and Gemini AI
